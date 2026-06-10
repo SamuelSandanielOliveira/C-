@@ -1,11 +1,6 @@
-using System;
+#include <stdio.h>
 
-namespace Hello WorldApp
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
+int main() {
+    printf("Hello World\n");
+    return 0;
+}
